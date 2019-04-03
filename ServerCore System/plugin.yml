@@ -1,0 +1,40 @@
+name: ServerCore
+main: net.zerobuddys.server.main.Main
+version: 1.0.0
+api: ["1.0.8"]
+author: ZeroBuddysYT
+commands:
+  coredev:
+    description: Core Developer Command - Server System
+    usage: /coredev
+  core:
+    description: Main Core Command - Server System
+    usage: /core
+  spieler:
+    description: Spieler Command - Server System
+    usage: /spieler
+    aliases: [sp, s]
+  lordmode:
+    description: LordMode Command - Fun Command - Server System
+    usage: /lordmode
+    aliases: [ld, ldm]
+  feedback:
+    description: Feedback Command - Server System
+    usage: /feedback
+    aliases: [fb, feed]
+  commandhelp:
+    description: CommandHelp Command - Server System
+    usage: /commandhelp
+    aliases: [cmd, ch]
+  claylordmc:
+    description: ClayLordMC Command - Server System
+    usage: /claylordmc
+    aliases: [claymc, clmc]
+  claycast:
+    description: ClayCast Command - Server System
+    usage: /claycast
+    aliases: [cc, clay]
+  ping:
+    description: Ping Command - Server System
+    usage: /ping
+    aliases: [ping, pg]
